@@ -3,7 +3,7 @@ from functools import partial
 
 from bottle import Bottle, PluginError, request, response
 
-from JWT import Token
+from .JWT import Token
 
 
 def auth_required(callable: Callable):
